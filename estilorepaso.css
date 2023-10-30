@@ -1,0 +1,238 @@
+/*Manuel Nieto Benítez*/
+
+/* Estilos generales */
+html {
+    width: 100%; /* Ocupa el ancho total del contenedor principal, antes 1280px*/
+    /*width: 1280px;*/
+    /*max-width: 1280px;*/
+    margin: 0 auto;
+}
+
+body {
+    background-color: #184D47;
+    font-family: Segoe UI;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.fondo1 {
+    background-image: url("imagenes/fondo1.jpg");
+}
+
+/* Cabecera y logo */
+header {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: white;
+    text-align: center;
+    padding: 1.6%; /* Contenedor:1264x, padding 20px: (20 / 1264) * 100 */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 44%; /* Contenedor:1264px, padding 555px: (555 / 1264) * 100 */
+    background-color: #333;
+    overflow: hidden;
+    color: white;
+}
+
+nav li {
+    float: left;
+    margin-right: 1.5%; /* Contenedor:1264px, padding 20px: (20 / 1264) * 100 */
+    font-size: large;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    margin-bottom: 2%; /* Contenedor:880px, padding 20px: (20 / 880) * 100 */
+}
+
+main {
+    padding: 1.5%; /* Padding:20px. Contenedor:1280px, padding 20px: (20 / 1280) * 100 */
+}
+
+/* Estilo para el footer */
+footer {
+    background-color: #333; /* Color de fondo del footer */
+    color: #fff;
+    text-align: center;
+    padding: 1.5% 0; /* Contenedor:1280px, padding 20px: (20 / 1280 * 100) */
+}
+
+/******************************************************************************/
+
+.bloque1 {
+    /* Ajusta los márgenes en porcentaje */
+    margin-left: 20%; /* Contenedor:880px, medida  180px: (180 / 880) * 100 */
+    margin-right: 20%; /* Contenedor:880px, medida  180px: (180 / 880) * 100 */
+    margin-bottom: 2%; /* Contenedor:880px, medida  20px: (20 / 880) * 100 */
+
+    /* Ajusta los paddings en porcentaje */
+    padding-left: 2%; /* Contenedor:880px, padding  20px: (20 / 880) * 100 */
+    padding-right: 2%; /* Contenedor:880px, padding  20px: (20 / 880) * 100 */
+    padding-bottom: 2%; /* Contenedor:880px, padding  20px: (20 / 880) * 100 */
+
+    /* Otras propiedades de estilo */
+    border: 3px solid;
+    background-color: #F9F6F7;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: justify;
+}
+
+/******************************************************************************/
+
+/* IMAGENES */
+#logo {
+    /* Ajusta el ancho y la altura en porcentaje */
+    width: 36%; /* Contenedor:1264px, medida  450px: (450 / 1264) * 100 */
+    height: 16%; /* Contenedor:1264px, medida  225px: (225 / 1264) * 100 */
+}
+
+.imagenes {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* Ajusta el ancho y la altura en porcentaje */
+    width: 100%; /* Contenedor:1280px, medida  770px, se ajusta automáticamente a su contenedor */
+
+}
+
+#fotocaja {
+    /* Ajusta el padding, ancho y la altura en porcentaje */
+    padding: 0.5%; /* Contenedor:880px, padding 5px: (5 / 880) * 100 */
+    width: 50%; /* Contenedor:880px, medida  350px, se ajusta automáticamente a su contenedor */
+
+    /* Otras propiedades de estilo*/
+    float: right;
+}
+/******************************************************************************/
+
+/* ESTILOS TABLA */
+table {
+    border-collapse: collapse;
+    width: 100%; /* Antes 800 px*/
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 1%;
+    font-family: "Myanmar Text";
+    font-weight: bold;
+}
+
+th {
+    background-color: #184D47;
+    font-style: italic;
+    color: #f1faee;
+    font-family: "Trebuchet MS";
+}
+
+tr:nth-child(even) {
+    background-color: #96BB7C; /* Color de fondo para filas pares */
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff; /* Color de fondo para filas impares */
+}
+/******************************************************************************/
+
+/* OTROS ESTILOS*/
+#flecha {
+    width: 7.8%; /* Contenedor:1280px, medida  100px: (100 / 1280) * 100 */
+    height: 7.8%; /* Contenedor:1280px, medida  100px: (100 / 1280) * 100 */
+}
+
+.remarcar {
+    background-color: #D6EFC7; /* Color de fondo para remarcar */
+    font-weight: bold; /* Texto en negrita */
+    font-style: italic;
+}
+
+/* Estilo para el contenedor */
+.centrado{
+    text-align: center;
+}
+/******************************************************************************/
+
+/* FORMULARIO */
+#formulario {
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 4.3%; /* Contenedor:550px, padding  20px: (20 / 550) * 100 */
+    padding: 4.3%; /* Contenedor:550px, padding  20px: (20 / 550) * 100 */
+    border: 3px solid #ccc;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: justify;
+}
+
+.f2 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 3px solid #ccc;
+    border-radius: 20px;
+    padding: 1.8%; /* Contenedor:550px, padding 10px: (10 / 550) * 100 */
+    margin-bottom: 1.8%; /* Contenedor:550px, padding 10px: (10 / 550) * 100 */
+}
+
+/* Estilo para los botones */
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    padding: 1.4% 3.6%; /* Contenedor:550px, padding 8px: (8 / 550 * 100)% */;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Aplicar padding a los elementos input */
+input, select, textarea {
+    padding: 1.4%; /* Contenedor:550px, padding  10px: (8 / 550 * 100)% */;
+    margin-bottom: 1.8%; /* Contenedor:550px, padding  10px: (10 / 550 * 100)% */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* textarea tiene un ancho fijo para que no se salga de formulario */
+textarea {
+    max-width: 200px; /* O ajusta el valor según tus preferencias */
+}
+
+/* Estilo para los checkbox y radio */
+input[type="checkbox"], input[type="radio"] {
+    margin-right: 1.8%; /* Contenedor:550px, padding  10px: (10 / 550 * 100)% */
+}
+
+/******************************************************************************/
+
+/* Estilo para los divs de pros y contras */
+.pros, .contras {
+    /* Distribuye el espacio disponible por igual entre los divs */
+    padding: 2.2%; /* Contenedor:440px, padding  10px: (10 / 440) * 100 */
+    border: 5px;
+    margin-top: 2.2%; /* Contenedor:440px, 10px: (10 / 440) * 100 */
+    margin-left: 4.5%; /* Contenedor:440px, 20px: (20 / 440) * 100 */
+}
+
+/* Estilo para las listas */
+ul {
+    list-style: disc;
+    padding-left: 4.5%; /* Contenedor:440px, 20px: (20 / 440) * 100 */
+    font-weight: normal;
+}
+
+ol {
+    font-style: italic;
+    font-weight: bold;
+}
+/******************************************************************************/
